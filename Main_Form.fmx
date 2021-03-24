@@ -1,0 +1,48 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Viewport3D1: TViewport3D
+    Align = Left
+    Size.Width = 457.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    object Light1: TLight
+      Color = claWhite
+      LightType = Directional
+      SpotCutOff = 180.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Position.Z = 5.000000000000000000
+      RotationAngle.X = 43.945846557617190000
+      RotationAngle.Y = 351.407928466796900000
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+      Quanternion = 
+        '(-0.350225001573563,0.0908449366688728,0.0610450431704521,-0.930' +
+        '248916149139)'
+    end
+  end
+  object Button1: TButton
+    Position.X = 504.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object ColorMaterialSource1: TColorMaterialSource
+    Color = claPalegreen
+    Left = 496
+    Top = 216
+  end
+end
